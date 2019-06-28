@@ -51,6 +51,7 @@ These practices apply to software that is “released” or in production, meani
 * Every new feature/Pull Request should have tests
 * TravisCI integration
     * Each commit/branch/PR
+* [Consider test-driven development](https://en.wikipedia.org/wiki/Test-driven_development)
 
 ## License
 * [Apache Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt)
