@@ -10,6 +10,7 @@ This is a growing repository of NeuroData's best practices.
 ### Coding-practices
 * Principles
 * Git Usage
+* Releases
 * Master branch
 * Feature branches
 * Issues
