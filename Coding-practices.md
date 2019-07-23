@@ -10,6 +10,16 @@ These practices apply to software that is “released” or in production, meani
 2. Everything is always a PR, never a direct commit to master
 3. People using the code should always use master, if you have some branch that you think is better than master for some reason, then it is your responsibility to make a PR to master, rather than encouraging other people to use some untested branch. that is, unless you want them to be testing for you, which is a different thing.
 
+
+## Git Usage 
+### Some good tips from [help.github.com](https://help.github.com/en/articles/removing-sensitive-data-from-a-repository)
+> There are a few simple tricks to avoid committing things you don't want committed:
+
+> * Use a visual program like GitHub Desktop or gitk to commit changes. Visual programs generally make it easier to see exactly which files will be added, deleted, and modified with each commit.
+> * Avoid the catch-all commands `git add .` and `git commit -a` on the command line -- use `git add filename` and `git rm filename` to individually stage files, instead.
+> * Use `git add --interactive` to individually review and stage changes within each file.
+> * Use `git diff --cached` to review the changes that you have staged for commit. This is the exact diff that `git commit` will produce as long as you don't use the `-a` flag.
+
 ## Master branch
 
 * Tag / create a github release on each release to CRAN/PyPi…
@@ -19,7 +29,6 @@ These practices apply to software that is “released” or in production, meani
     * Require pull request reviews before merging 
     * Include administrators 
     * Restrict who can push to master
-
 
 ## [Feature branches](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 * Create a branch for each feature addition
