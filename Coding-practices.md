@@ -20,9 +20,13 @@ These practices apply to software that is “released” or in production, meani
 > * Use `git add --interactive` to individually review and stage changes within each file.
 > * Use `git diff --cached` to review the changes that you have staged for commit. This is the exact diff that `git commit` will produce as long as you don't use the `-a` flag.
 
-## Master branch
+## Releases
 
-* Tag / create a github release on each release to CRAN/PyPi…
+* Use the NeuroData PyPi account when uploading to PyPi
+   * Ask neurodata admin team for access
+* Tag / create a github release on each release to CRAN/PyPi
+
+## Master branch
 * Github settings
 * Restrict editing to users in teams with push access only 
 * Add rules for master branch
