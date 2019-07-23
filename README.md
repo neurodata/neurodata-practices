@@ -9,6 +9,7 @@ This is a growing repository of NeuroData's best practices.
 * Grants
 ### Coding-practices
 * Principles
+* Git Usage
 * Master branch
 * Feature branches
 * Issues
